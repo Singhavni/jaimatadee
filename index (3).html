@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jai Mata Dee Construction</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>WELCOME TO JAI MATA DEE CONSTRUCTION</h1>
+    </header>
+
+    <div class="container">
+        <div class="contact-info">
+            <img src="https://assets.onecompiler.app/42rpngju4/42rpv9vqm/akash%20photo.jpg" alt="Owner Photo"> <!-- Replace with your photo path -->
+            <p>Email: <a href="mailto:Rnc.sanjaysingh001@gmail.com">Rnc.sanjaysingh001@gmail.com</a></p>
+            <p>Owner: Mr. Sanjay Singh</p>
+            <p>Co-Owner: Mr. Akash Singh</p>
+        </div>
+
+        <div class="intro">
+            <p>WELCOME<br>TO<br>JAI MATA DEE CONSTRUCTION</p>
+        </div>
+
+        <div class="paragraph">
+            <p>Our company is a construction-based company. This has a turnover of 100 crores. We have been awarded by NHAI.</p>
+        </div>
+
+        <button class="accordion">Gallery</button>
+        <div class="accordion-content">
+            <img src="https://assets.onecompiler.app/42rpngju4/42rpv9vqm/nice%202.jpg" alt="Gallery Photo 1"> <!-- Replace with your photo paths -->
+            <img src="https://assets.onecompiler.app/42rpngju4/42rvk3656/aaj.jpeg" alt="Gallery Photo 2">
+            <img src="https://assets.onecompiler.app/42rpngju4/42rpk28x2/photo%203.jpg" alt="Gallery Photo 3">
+            <img src="https://assets.onecompiler.app/42rpngju4/42s6re9sv/recent%203.jpg" alt="Gallery Photo 4">
+            <img src="https://assets.onecompiler.app/42rpngju4/42s6re9sv/recent%201.jpg" alt="Gallery Photo 5">
+            <img src="https://assets.onecompiler.app/42rpngju4/42s6re9sv/recent%202.jpg" alt="Gallery Photo 6">
+        </div>
+
+        <button class="accordion">Ongoing Projects</button>
+        <div class="accordion-content">
+            <p>This is our ongoing project which has been awarded by NHAI and we are doing it in Ramgarh (Jharkhand) and Odisha.</p>
+            <img src="https://assets.onecompiler.app/42rpngju4/42s6re9sv/ongoing.jpg" alt="Ongoing Project 1"> <!-- Replace with your ongoing project photos -->
+            <img src="https://assets.onecompiler.app/42rpngju4/42s6re9sv/ongoing%202.jpg" alt="Ongoing Project 2">
+        </div>
+
+        <button class="accordion">Works Done</button>
+        <div class="accordion-content">
+            <img src="https://assets.onecompiler.app/42rpngju4/42s6re9sv/work%20done%20yet.jpg" alt="Works Done"> <!-- Replace with your works done photo -->
+        </div>
+    </div>
+
+    <footer>
+        &copy; 2024 Jai Mata Dee Construction. All rights reserved.
+    </footer>
+
+    <script>
+        document.querySelectorAll('.accordion').forEach(button => {
+            button.addEventListener('click', () => {
+                const content = button.nextElementSibling;
+                content.style.display = content.style.display === 'block' ? 'none' : 'block';
+            });
+        });
+    </script>
+</body>
+</html>
